@@ -2,7 +2,7 @@
 
 Anki addon to order reviews of cloze notes in ascending cloze ordinal order.
 
-**\*\*\* NOTE: I have not double checked the long term effects of the scheduling of the cards but it seems to do what I want, use at your own peril (backups are made if you want to revert) \*\*\***
+**\*\*\* NOTE: I have not double checked the long term effects of the scheduling of the cards but it seems to do what I want when using the v3 scheduler, I have not tested it with v1 and v2 schedulers! Use at your own peril (backups are made if you want to revert)!  \*\*\***
 
 ## Use case
 

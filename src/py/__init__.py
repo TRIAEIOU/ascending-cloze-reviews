@@ -7,6 +7,10 @@ from anki.cards import Card, BackendCard
 from aqt.browser.sidebar import SidebarItemType
 from anki.notes import Note
 from anki.consts import MODEL_CLOZE, QUEUE_TYPE_REV, QUEUE_TYPE_DAY_LEARN_RELEARN, QUEUE_TYPE_PREVIEW
+from .version import *
+
+CVER = get_version()
+NVER = "1.0.0"
 
 OCR_MENU = "Sort due clozes ascending"
 
@@ -69,3 +73,6 @@ action.triggered.connect(lambda: order(mw))
 mw.form.menuTools.addAction(action)
 
 gui_hooks.browser_sidebar_will_show_context_menu.append(lambda sb, menu, itm, i: add_to_menu(OCR_MENU, sb, menu) if itm.item_type == SidebarItemType.DECK else menu)
+
+if strvercmp(CVER, NVER) < 0:
+    set_version(NVER)
