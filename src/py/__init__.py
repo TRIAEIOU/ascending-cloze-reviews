@@ -1,7 +1,6 @@
 import sys, time, datetime
 from aqt import mw, gui_hooks
 from aqt.qt import QAction
-from anki.scheduler import QueuedCard
 from anki.scheduler.v3 import QueuedCards
 from anki.cards import Card, BackendCard
 from aqt.browser.sidebar import SidebarItemType
@@ -10,7 +9,7 @@ from anki.consts import MODEL_CLOZE, QUEUE_TYPE_REV, QUEUE_TYPE_DAY_LEARN_RELEAR
 from .version import *
 
 CVER = get_version()
-NVER = "1.0.0"
+NVER = "1.0.1"
 
 OCR_MENU = "Sort due clozes ascending"
 

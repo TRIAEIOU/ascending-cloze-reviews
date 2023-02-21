@@ -71,3 +71,7 @@ The effect of this is as follows (when refering to "cards" below this includes o
 - Cards from the same note will be reviewed in asceding cloze ordinal order.
 - When reviewing a deck with multiple cloze **notes**, cards will come from "all cloze notes" at once, i.e. not "first all cards of one note, then all from the next note".
 - Once a card has been reviewed it will return to its normal status (e.g. "learned" or "learning") and will be scheduled for the next review as per normal (Anki built in scheduling or users modified scheduling).
+
+## Change log
+
+- 2023-02-21 Include error fix.
